@@ -11,8 +11,11 @@ datasource db {
 }
 
 model User {
+  @@map("Users")
   id       Int     @id @default(autoincrement())
   email    String  @unique
   name     String?
   password String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
