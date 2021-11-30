@@ -1,10 +1,14 @@
 {
   "name": "nest-prisma-app",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "A simple project to test how Prisma can be used within Nest app",
+  "author": {
+    "name": "Arkadiusz S. Krauzowicz",
+    "email": "arkadiusz.krauzowicz@cube11.pl",
+    "url": "https://cube11.pl"
+  },
   "private": true,
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
