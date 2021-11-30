@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
-
-const SALT_ROUNDS = 10;
+import { SALT_ROUNDS } from './crypto.config';
 
 @Injectable()
 export class CryptoService {
